@@ -1,6 +1,6 @@
 import OTTList from "../components/OTTList";
 import BillPayment from "../components/BillPayment";
-import "./dashboard.css";  
+import "./Dashboard.css";  
 
 const Dashboard = () => {
   return (
