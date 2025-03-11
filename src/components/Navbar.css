@@ -1,0 +1,89 @@
+/* Navbar Container */
+.navbar {
+    background-color: #1a1a2e;
+    padding: 15px 20px;
+    color: white;
+  }
+  
+  /* Navbar Flex Container */
+  .navbar-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navbar Brand (Logo + Title) */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Navbar Logo */
+  .navbar-logo {
+    width: 40px;  /* Adjust as needed */
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Navbar Title */
+  .navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Navbar Links */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+    color: #00aaff; /* Add hover color */
+  }
+  
+  /* Navbar Button */
+  .navbar-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-button:hover {
+    text-decoration: underline;
+    color: #ff4c4c; /* Add hover color for logout */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-links {
+      margin-top: 10px;
+    }
+  
+    .navbar-link {
+      margin-right: 10px;
+    }
+  }
+  
